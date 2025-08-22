@@ -1,0 +1,21 @@
+{
+  "name": "KAVIDU-MD",
+  "description": "KAVIDU MD Best Whatsapp User Bot",
+  "logo": "https://mv-visper-full-db.pages.dev/Data/visper_main.jpeg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    }
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
