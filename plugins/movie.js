@@ -70,7 +70,7 @@ cmd({
         }
       });
       return await _0x4b12a6.sendMessage(_0x38cc7c, {
-        'text': "*`You are not a premium user⚠️`*\n\n*Send a message to one of the 2 numbers below and buy Lifetime premium 🎉.*\n\n_Price : 200 LKR ✔️_\n\n*👨‍💻Contact us : 0778500326 , 0722617699*"
+        'text': "*`You are not a premium user⚠️`*\n\n*Send a message to one of the 2 numbers below and buy premium 🎉.*\n\n_Price : 200 LKR ✔️_\n\n*👨‍💻Contact us : 94757054054 , 94767054052*"
       }, {
         'quoted': _0x4c168d
       });
