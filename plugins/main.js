@@ -29,7 +29,7 @@ const {
 } = require("url");
 cmd({
   'pattern': "alive",
-  'react': '🫟',
+  'react': '👽',
   'alias': ['online', "test", 'bot'],
   'desc': "Check if bot is online.",
   'category': 'main',
@@ -162,12 +162,12 @@ cmd({
     });
     const _0x1f4aa0 = Date.now() - _0x940db6;
     await _0x52a8fa.sendMessage(_0x4bf948, {
-      'text': "*Pong " + _0x1f4aa0 + " ms ⚡*",
+      'text': "*Pong " + _0x1f4aa0 + " ms 🚀*",
       'edit': _0x471b6f.key
     });
     await _0x52a8fa.sendMessage(_0x4bf948, {
       'react': {
-        'text': '📍',
+        'text': '🛸',
         'key': _0x1e44bc.key
       }
     });
