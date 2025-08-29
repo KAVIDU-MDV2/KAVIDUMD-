@@ -232,7 +232,7 @@ cmd({
     const _0x583d90 = [{
       'buttonId': _0x279e3e + "mainmenu",
       'buttonText': {
-        'displayText': "◆ 𝗠𝗮𝗶𝗻 𝗠𝗲𝗻𝘂 "
+        'displayText': "◆𝚖𝚊𝚒𝚗 𝚖𝚎𝚗𝚞  "
       },
       'type': 0x1
     }, {
