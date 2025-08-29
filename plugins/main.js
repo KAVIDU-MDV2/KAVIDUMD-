@@ -232,37 +232,37 @@ cmd({
     const _0x583d90 = [{
       'buttonId': _0x279e3e + "mainmenu",
       'buttonText': {
-        'displayText': "◆𝚖𝚊𝚒𝚗 𝚖𝚎𝚗𝚞  "
+        'displayText': " 💢𝕄𝔸𝕀ℕ 𝕄𝔼ℕ𝕌  "
       },
       'type': 0x1
     }, {
       'buttonId': _0x279e3e + "groupmenu",
       'buttonText': {
-        'displayText': "◆ 𝗚𝗿𝗼𝘂𝗽 𝗠𝗲𝗻𝘂 "
+        'displayText': " 💢𝔾ℝ𝕆𝕌ℙ 𝕄𝔼ℕ𝕌 "
       },
       'type': 0x1
     }, {
       'buttonId': _0x279e3e + "moviemenu",
       'buttonText': {
-        'displayText': "◆ 𝗠𝗼𝘃𝗶𝗲 𝗠𝗲𝗻𝘂"
+        'displayText': " 💢𝕄𝕆𝕍𝕀𝔼 𝕄𝔼ℕ𝕌 "
       },
       'type': 0x1
     }, {
       'buttonId': _0x279e3e + "downloadmenu",
       'buttonText': {
-        'displayText': "◆ 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗲𝗻𝘂"
+        'displayText': " 💢𝔻𝕆𝕎ℕ𝕃𝕆𝔸𝔻 𝕄𝔼ℕ𝕌 "
       },
       'type': 0x1
     }, {
       'buttonId': _0x279e3e + "convertmenu",
       'buttonText': {
-        'displayText': "◆ 𝗖𝗼𝗻𝘃𝗲𝗿𝘁 𝗠𝗲𝗻𝘂"
+        'displayText': " 💢ℂ𝕆ℕ𝕍𝔼ℝ𝕋 𝕄𝔼ℕ𝕌 "
       },
       'type': 0x1
     }, {
       'buttonId': _0x279e3e + 'aicommands',
       'buttonText': {
-        'displayText': "◆ 𝗔𝗜 𝗠𝗲𝗻𝘂"
+        'displayText': " 💢𝔸𝕀 𝕄𝔼ℕ𝕌 "
       },
       'type': 0x1
     }];
