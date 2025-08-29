@@ -29,7 +29,7 @@ const {
 } = require("url");
 cmd({
   'pattern': "alive",
-  'react': '👽',
+  'react': '👩‍💻',
   'alias': ['online', "test", 'bot'],
   'desc': "Check if bot is online.",
   'category': 'main',
@@ -275,7 +275,7 @@ cmd({
     };
     if (config.BUTTON === "true") {
       const _0xbc5dba = {
-        'title': "Select Menu :)",
+        'title': "𝙲𝚕𝚒𝚌𝚔 𝙷𝚎𝚛𝚎 📥 :)",
         'sections': [{
           'title': 'KAVIDU-MD',
           'rows': [{
