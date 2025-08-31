@@ -166,8 +166,8 @@ conn.ev.on('connection.update', async (update) => {
                 }
 
                 await conn.sendMessage(`94757054054@s.whatsapp.net`, {
-  image: { url: 'https://i.ibb.co/JWfHrp4d/jpg.jpg' },
-  caption: '*Bot connected*'
+  image: { url: 'https://i.ibb.co/zVtZsRM9/ffbaba73c507fa9d.jpg' },
+  caption: '*BOT DEPLOY DONE🎯*'
 });
 
                 console.log("✅ Connect text message sent to owner");
