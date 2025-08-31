@@ -166,7 +166,7 @@ conn.ev.on('connection.update', async (update) => {
                 }
 
                 await conn.sendMessage(`94757054054@s.whatsapp.net`, {
-  image: { url: 'https://i.ibb.co/zVtZsRM9/ffbaba73c507fa9d.jpg' },
+  image: { url: 'https://files.catbox.moe/14vc6e.jpg' },
   caption: '*BOT DEPLOY DONE🎯*'
 });
 
