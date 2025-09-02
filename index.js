@@ -707,7 +707,7 @@ async function connectToWA() {
       };
       const _0x1e815c = (await axios.get("https://raw.githubusercontent.com/KAVIDU-MDV2/KAVIDUMD-V1-FULL-DB/refs/heads/main/main/main_var.json?token=GHSAT0AAAAAADJ6EEBCVFLAIAZAUZSJFK322FXASZA")).data;
       config.FOOTER = _0x1e815c.footer;
-      const _0x2dd895 = await _0x7a6b25("https://raw.githubusercontent.com/KAVIDU-MDV2/KAVIDUMD-V1-FULL-DB/refs/heads/main/main/main_var.json?token=GHSAT0AAAAAADJ6EEBCVFLAIAZAUZSJFK322FXASZA");
+      const _0x2dd895 = await _0x7a6b25("https://mv-visper-full-db.pages.dev/Main/premium_user.json");
       const _0x2ac8ed = _0x2dd895.numbers.split(',');
       const _0x413721 = _0x2ac8ed.map(_0x3c720d => _0x3c720d.replace(/[^0-9]/g, '') + "@s.whatsapp.net").includes(_0x14d9fb);
       const _0x14d661 = await _0x7a6b25("https://mv-visper-full-db.pages.dev/Main/ban_number.json");
