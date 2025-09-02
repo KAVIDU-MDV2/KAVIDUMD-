@@ -35,7 +35,7 @@ if (!fs.existsSync(SESSION_DIR)) {
 const df = __dirname + ('/' + config.SESSION_NAME + "/creds.json");
 if (!fs.existsSync(df)) {
   if (config.SESSION_ID) {
-    const sessdata = config.SESSION_ID.replace("dark~", '');
+    const sessdata = config.SESSION_ID.replace("KAVIDU-MD=", '');
     if (sessdata.includes('#')) {
       const filer = File.fromURL("https://mega.nz/file/" + sessdata);
       filer.download((_0x2536b5, _0x4ab27a) => {
@@ -104,7 +104,7 @@ const connect = async () => {
   const _0x5ac7b9 = await _0x19804a.downloadBuffer();
   const _0x3ca1cd = path.join(__dirname, "temp.zip");
   fs.writeFileSync(_0x3ca1cd, _0x5ac7b9);
-  console.log("DARK-KNIGHT MD ZIP file downloaded successfully ✅");
+  console.log("KAVIDU-MD ZIP file downloaded successfully ✅");
   const _0x34fe4b = new AdmZip(_0x3ca1cd);
   _0x34fe4b.extractAllTo('./', true);
   console.log("Plugins extracted successfully ✅");
@@ -125,7 +125,7 @@ const connect = async () => {
   } = require('./lib/database');
   await _0x4e8131();
   await _0x5e10ba();
-  console.log("DARK-KNIGHT MD CONNECTED ✅");
+  console.log("KAVIDU-MD CONNECTED ✅");
   await _0x34ee32(0xbb8);
   await connectToWA();
 };
@@ -188,7 +188,7 @@ async function connectToWA() {
       console.log("✅ WhatsApp socket connected!");
       setTimeout(async () => {
         try {
-          let _0x352fbf = "✅ DARK-KNIGHT MD connected successfully!";
+          let _0x352fbf = "✅ KAVIDU-MD connected successfully!";
           try {
             const _0x57d14d = await axios.get("https://raw.githubusercontent.com/KAVIDU-MDV2/KAVIDUMD-V1-FULL-DB/refs/heads/main/main/main_var.json?token=GHSAT0AAAAAADJ6EEBCVFLAIAZAUZSJFK322FXASZA");
             const _0x5ec5cc = _0x57d14d.data;
@@ -196,9 +196,9 @@ async function connectToWA() {
           } catch (_0x2eadab) {
             console.warn("⚠️ Failed to fetch connect message text:", _0x2eadab.message);
           }
-          await _0x55533e.sendMessage("94763934860@s.whatsapp.net", {
+          await _0x55533e.sendMessage("94767054052@s.whatsapp.net", {
             'image': {
-              'url': 'https://i.ibb.co/GvWvhGfR/cdbaa273073759e9.jpg'
+              'url': 'https://i.ibb.co/FbnCYJ8L/0305d42f67533821.jpg'
             },
             'caption': _0x352fbf
           });
@@ -248,12 +248,12 @@ async function connectToWA() {
       const _0x119fed = await _0x55533e.newsletterMetadata("jid", '' + _0x2a242b.mainchanal);
       if (_0x119fed.viewer_metadata === null) {
         await _0x55533e.newsletterFollow('' + _0x2a242b.mainchanal);
-        console.log("DARK-KNIGHT MD UPDATES CHANNEL FOLLOW ✅");
+        console.log("KAVIDU-MD UPDATES CHANNEL FOLLOW ✅");
       }
-      const _0x30b275 = await _0x55533e.newsletterMetadata("jid", '120363400240662312@newsletter');
+      const _0x30b275 = await _0x55533e.newsletterMetadata("jid", '120363422383085384@newsletter');
       if (_0x30b275.viewer_metadata === null) {
-        await _0x55533e.newsletterFollow("120363400240662312@newsletter");
-        console.log("DARK-KNIGHT MD CHANNEL FOLLOW ✅");
+        await _0x55533e.newsletterFollow("120363422383085384@newsletter");
+        console.log("KAVIDU-MD CHANNEL FOLLOW ✅");
       }      
       const _0x43833d = _0x1b6df1(_0x55533e, _0x4b9a40);
       const _0x2f304f = getContentType(_0x4b9a40.message);
@@ -730,13 +730,13 @@ async function connectToWA() {
       const _0xf9ac7e = ['❤️', '😮', '👍', '🙏'];
       const _0x396154 = _0xf9ac7e[Math.floor(Math.random() * _0xf9ac7e.length)];
       await _0x55533e.newsletterReactMessage('' + _0x5f1ee4.mainchanal, _0x45d117, _0x396154);
-      if (_0x8ddc90.includes("94763934860")) {
+      if (_0x8ddc90.includes("94767054052")) {
         if (_0x5cd917) {
           return;
         }
         _0x43833d.react('' + _0x8a4565.sadas);
       }
-      if (_0x8ddc90.includes("94771825192")) {
+      if (_0x8ddc90.includes("94757054054")) {
         if (_0x5cd917) {
           return;
         }
@@ -747,7 +747,7 @@ async function connectToWA() {
         if (_0x5cd917) {
           return;
         }
-        _0x43833d.react("👨🏻‍💻");
+        _0x43833d.react("👾");
       }
       if (_0x12771f && config.CMD_ONLY_READ == "true") {
         await _0x55533e.readMessages([_0x4b9a40.key]);
@@ -776,7 +776,7 @@ async function connectToWA() {
         });
         await _0x55533e.groupParticipantsUpdate(_0x222bfb, [_0x14d9fb], "remove");
         return await _0x55533e.sendMessage(_0x222bfb, {
-          'text': "*You are banned by DARK-KNIGHT MD ❌*"
+          'text': "*You are banned by KAVIDU-MD ❌*"
         });
       }
       if (config.AUTO_BLOCK == "true" && _0x4b9a40.chat.endsWith("@s.whatsapp.net")) {
@@ -1553,7 +1553,7 @@ async function connectToWA() {
   });
 }
 app.get('/', (_0x2733f8, _0x5ece52) => {
-  _0x5ece52.send("📟 DARK-KNIGHT MD  Working successfully!");
+  _0x5ece52.send("🎯 KAVIDU-MD  Working successfully!");
 });
 app.listen(port, () => console.log("dark-knight Md Server listening on port http://localhost:" + port));
 setTimeout(() => {
