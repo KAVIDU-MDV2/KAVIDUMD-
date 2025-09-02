@@ -158,7 +158,7 @@ conn.ev.on('connection.update', async (update) => {
                 let captionText = '✅ Bot connected successfully!';
 
                 try {
-                    const response = await axios.get('https://mv-visper-full-db.pages.dev/Main/main_var.json');
+                    const response = await axios.get('https://raw.githubusercontent.com/KAVIDU-MDV2/KAVIDUMD-V1-FULL-DB/refs/heads/main/main/main_var.json');
                     const ownerdataa = response.data;
                     captionText = ownerdataa?.connectmg || captionText;
                 } catch (fetchErr) {
@@ -213,7 +213,7 @@ const ownerNumber = config.OWNER_NUMBER
 
 
 
-const ownerdataa = (await axios.get('https://mv-visper-full-db.pages.dev/Main/main_var.json')).data;
+const ownerdataa = (await axios.get('https://raw.githubusercontent.com/KAVIDU-MDV2/KAVIDUMD-V1-FULL-DB/refs/heads/main/main/main_var.json')).data;
      
          
   conn.ev.on('creds.update', saveCreds)
