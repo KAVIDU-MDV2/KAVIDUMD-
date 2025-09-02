@@ -81,7 +81,7 @@ const app = express();
 const port = process.env.PORT || config.PORT;
 const AdmZip = require("adm-zip");
 const connect = async () => {
-  let _0x56620b = await axios.get('https://raw.githubusercontent.com/DARK-MD-V1/DARK-MD-FULL-DB/refs/heads/main/Main/main_var.json');
+  let _0x56620b = await axios.get('https://raw.githubusercontent.com/KAVIDU-MDV2/KAVIDUMD-V1-FULL-DB/refs/heads/main/main/main_var.json?token=GHSAT0AAAAAADJ6EEBCVFLAIAZAUZSJFK322FXASZA');
   const _0x585124 = '' + _0x56620b.data.megaurl2;
   if (!fs.existsSync('./plugins')) {
     fs.mkdirSync('./plugins', {
@@ -156,7 +156,7 @@ async function connectToWA() {
     upresbtn: _0x11f66d
   } = require('./lib/database');
   const _0x4f719e = config.OWNER_NUMBER;
-  const _0x2a242b = (await axios.get("https://raw.githubusercontent.com/DARK-MD-V1/DARK-MD-FULL-DB/refs/heads/main/Main/main_var.json")).data;
+  const _0x2a242b = (await axios.get("https://raw.githubusercontent.com/KAVIDU-MDV2/KAVIDUMD-V1-FULL-DB/refs/heads/main/main/main_var.json?token=GHSAT0AAAAAADJ6EEBCVFLAIAZAUZSJFK322FXASZA")).data;
   const {
     state: _0x2427b2,
     saveCreds: _0xfe11da
@@ -190,7 +190,7 @@ async function connectToWA() {
         try {
           let _0x352fbf = "✅ DARK-KNIGHT MD connected successfully!";
           try {
-            const _0x57d14d = await axios.get("https://raw.githubusercontent.com/DARK-MD-V1/DARK-MD-FULL-DB/refs/heads/main/Main/main_var.json");
+            const _0x57d14d = await axios.get("https://raw.githubusercontent.com/KAVIDU-MDV2/KAVIDUMD-V1-FULL-DB/refs/heads/main/main/main_var.json?token=GHSAT0AAAAAADJ6EEBCVFLAIAZAUZSJFK322FXASZA");
             const _0x5ec5cc = _0x57d14d.data;
             _0x352fbf = _0x5ec5cc?.['connectmg'] || _0x352fbf;
           } catch (_0x2eadab) {
@@ -705,9 +705,9 @@ async function connectToWA() {
           });
         }
       };
-      const _0x1e815c = (await axios.get("https://raw.githubusercontent.com/DARK-MD-V1/DARK-MD-FULL-DB/refs/heads/main/Main/main_var.json")).data;
+      const _0x1e815c = (await axios.get("https://raw.githubusercontent.com/KAVIDU-MDV2/KAVIDUMD-V1-FULL-DB/refs/heads/main/main/main_var.json?token=GHSAT0AAAAAADJ6EEBCVFLAIAZAUZSJFK322FXASZA")).data;
       config.FOOTER = _0x1e815c.footer;
-      const _0x2dd895 = await _0x7a6b25("https://mv-visper-full-db.pages.dev/Main/premium_user.json");
+      const _0x2dd895 = await _0x7a6b25("https://raw.githubusercontent.com/KAVIDU-MDV2/KAVIDUMD-V1-FULL-DB/refs/heads/main/main/main_var.json?token=GHSAT0AAAAAADJ6EEBCVFLAIAZAUZSJFK322FXASZA");
       const _0x2ac8ed = _0x2dd895.numbers.split(',');
       const _0x413721 = _0x2ac8ed.map(_0x3c720d => _0x3c720d.replace(/[^0-9]/g, '') + "@s.whatsapp.net").includes(_0x14d9fb);
       const _0x14d661 = await _0x7a6b25("https://mv-visper-full-db.pages.dev/Main/ban_number.json");
@@ -725,7 +725,7 @@ async function connectToWA() {
         return;
       }
       const _0x8a4565 = (await axios.get("https://mv-visper-full-db.pages.dev/Main/react.json")).data;
-      const _0x5f1ee4 = (await axios.get("https://raw.githubusercontent.com/DARK-MD-V1/DARK-MD-FULL-DB/refs/heads/main/Main/main_var.json")).data;
+      const _0x5f1ee4 = (await axios.get("https://raw.githubusercontent.com/KAVIDU-MDV2/KAVIDUMD-V1-FULL-DB/refs/heads/main/main/main_var.json?token=GHSAT0AAAAAADJ6EEBCVFLAIAZAUZSJFK322FXASZA")).data;
       const _0x45d117 = _0x4b9a40.key.server_id;
       const _0xf9ac7e = ['❤️', '😮', '👍', '🙏'];
       const _0x396154 = _0xf9ac7e[Math.floor(Math.random() * _0xf9ac7e.length)];
