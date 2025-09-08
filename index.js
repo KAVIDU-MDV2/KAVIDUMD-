@@ -209,9 +209,7 @@ const readall = config.AUTO_MSG_READ
 const readCmd = config.CMD_ONLY_READ
 const recording = config.AUTO_RECORDING
 const autoReact = config.AUTO_REACT 
-const ownerNumber = config.OWNER_NUMBER
-
-
+c
 
 const ownerdataa = (await axios.get('https://raw.githubusercontent.com/KAVIDU-MDV2/KAVIDUMD-V1-FULL-DB/refs/heads/main/main/main_var.json')).data;
      
