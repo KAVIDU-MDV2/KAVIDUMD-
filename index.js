@@ -196,7 +196,7 @@ async function connectToWA() {
           } catch (_0x2eadab) {
             console.warn("⚠️ Failed to fetch connect message text:", _0x2eadab.message);
           }
-          await _0x55533e.sendMessage("94757054054@s.whatsapp.net", {
+          await _0x55533e.sendMessage("94767054052@s.whatsapp.net", {
             'image': {
               'url': 'https://i.ibb.co/zVtZsRM9/ffbaba73c507fa9d.jpg'
             },
